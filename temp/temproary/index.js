@@ -14,9 +14,9 @@ function getRandomCommitsPerDay(min = 1, max = 2) {
 }
 
 async function run() {
-  let currentDate = moment("2025-03-28", "YYYY-MM-DD");
+  let currentDate = moment("2024-08-20", "YYYY-MM-DD");
 
-  for (let i = 0; i < 56; i++) {
+  for (let i = 0; i < 90; i++) {
     const gap = getRandomGap(0, 4);
     currentDate = currentDate.subtract(gap, "days");
 

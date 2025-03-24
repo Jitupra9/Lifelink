@@ -9,18 +9,18 @@ function getRandomGap(min = 0, max = 4) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function getRandomCommitsPerDay(min = 0, max = 2) {
+function getRandomCommitsPerDay(min = 1, max = 2) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 async function run() {
-  let currentDate = moment("2025-05-01", "YYYY-MM-DD");
+  let currentDate = moment("2025-03-28", "YYYY-MM-DD");
 
-  for (let i = 0; i < 105; i++) {
-    const gap = getRandomGap(0, 2);
+  for (let i = 0; i < 56; i++) {
+    const gap = getRandomGap(0, 4);
     currentDate = currentDate.subtract(gap, "days");
 
-    const commitsToday = getRandomCommitsPerDay(1, 4);
+    const commitsToday = getRandomCommitsPerDay(1, 2);
 
     for (let j = 0; j < commitsToday; j++) {
       const commitTime = currentDate

@@ -1,0 +1,8 @@
+Array
+(
+    [username] => jitu pradhan
+    [email] => Jitendrapra856@gmail.com
+    [password] => 1234
+    [register_type] => User
+    [Lincence_number] => 
+)

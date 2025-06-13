@@ -35,16 +35,7 @@ When someone needs help and cannot find a donor or hospital manually, **LifeLink
 
 ## 🚀 Demo
 
-- 🔗 [Live Demo](#) *(Insert deployed link if available)*  
-- 💻 [GitHub Repository](#) *(Insert your GitHub repo link)*  
-- 📸 Screenshots or GIF: *(Upload visuals of search, request, and donor confirmation flow)*
+- 🔗 [Live Demo](#) *(working in progress)*  
+- 📸 Screenshots or GIF: *(working in progress)*
 
----
 
-## 🧑‍💻 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/lifelink.git
-cd lifelink
